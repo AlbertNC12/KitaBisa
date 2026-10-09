@@ -1,6 +1,6 @@
-# KitaBisa — Sign Language Learning Platform
+# IsyaratKu — Sign Language Learning Platform
 
-KitaBisa is an interactive web-based platform designed to help users learn and practice sign language through **learning materials, quizzes, AI-powered webcam practice, and an online community**.
+IsyaratKu is an interactive web-based platform designed to help users learn and practice sign language through **learning materials, quizzes, AI-powered webcam practice, and an online community**.
 
 The platform combines web development and artificial intelligence to provide an engaging learning experience while allowing users to track their learning progress through scores and performance records.
 
@@ -17,7 +17,7 @@ Users can learn sign language through structured learning materials and visual r
 
 ### 🧠 AI-Powered Sign Language Practice
 
-KitaBisa provides an AI-based practice feature that allows users to practice sign language using their webcam.
+IsyaratKu provides an AI-based practice feature that allows users to practice sign language using their webcam.
 
 The system analyzes the user's hand gestures and provides a score based on the detected sign.
 
@@ -50,7 +50,7 @@ Users can test their understanding through interactive quizzes.
 
 ### 📊 Progress Tracking
 
-KitaBisa records user performance to help users monitor their learning progress.
+IsyaratKu records user performance to help users monitor their learning progress.
 
 Users can track:
 
@@ -63,7 +63,7 @@ This allows users to identify areas where they need more practice.
 
 ### 👥 Online Community
 
-KitaBisa includes an online community where users can interact and share their learning experiences.
+IsyaratKu includes an online community where users can interact and share their learning experiences.
 
 Users can:
 
@@ -78,14 +78,14 @@ The community is designed to make learning more interactive and collaborative.
 
 ## 🏗️ System Architecture
 
-KitaBisa uses a web application architecture with a Django application and a separate AI service.
+IsyaratKu uses a web application architecture with a Django application and a separate AI service.
 
 ```text
                     ┌─────────────────────┐
-                    │      Web Browser     │
+                    │     Web Browser     │
                     │                     │
-                    │  Learning / Quiz    │
-                    │  Community / Webcam │
+                    │ Learning / Quiz     │
+                    │ Community / Webcam  │
                     └──────────┬──────────┘
                                │
                                ▼
@@ -143,14 +143,14 @@ KitaBisa uses a web application architecture with a Django application and a sep
 
 ### Database
 
-* Django Database System
+* Database managed through Django's database framework
 
 ---
 
 ## 📁 Project Structure
 
 ```text
-KitaBisa/
+IsyaratKu/
 │
 ├── base/
 │   └── ...
@@ -200,7 +200,7 @@ Quiz and practice results can be used to monitor the user's overall learning pro
 
 ## 🎯 Project Goals
 
-KitaBisa was developed with several goals:
+IsyaratKu was developed with several goals:
 
 * Make sign language learning more accessible
 * Provide an interactive way to practice sign language
@@ -211,11 +211,11 @@ KitaBisa was developed with several goals:
 
 ---
 
-## 💡 Why KitaBisa?
+## 💡 Why IsyaratKu?
 
 Traditional learning methods may not provide immediate feedback when someone practices sign language.
 
-KitaBisa addresses this by combining **learning materials, quizzes, AI-powered webcam practice, and progress tracking** in one platform.
+IsyaratKu addresses this by combining **learning materials, quizzes, AI-powered webcam practice, and progress tracking** in one platform.
 
 Instead of only learning what a sign looks like, users can directly practice the gesture and receive a score from the AI system.
 
@@ -238,7 +238,8 @@ Potential future improvements include:
 
 ## 👨‍💻 Project
 
-**KitaBisa**
+**IsyaratKu**
+
 An AI-powered sign language learning platform combining web development, machine learning, and interactive education.
 
 ---
